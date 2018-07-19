@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <br.com.developen.ruralpatrol.widget.SquareImageView
+            android:id="@+id/marker_photo_imageview"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/photo"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/marker_denomination_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diogo Buzin Rosin"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/marker_street_textview"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:textColor="#696969"/>
+
+            <TextView
+                android:id="@+id/marker_number_textview"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:textColor="#696969"/>
+
+            <TextView
+                android:id="@+id/marker_district_textview"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:textColor="#696969"/>
+
+            <TextView
+                android:id="@+id/marker_city_textview"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:textColor="#696969"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="1dp"
+        android:background="#d4d4d4"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/marker_checked_imagebutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/colorGreenDark"
+            android:src="@drawable/check_24"/>
+
+        <ImageButton
+            android:id="@+id/marker_direction_imagebutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorBlueDark"
+            android:src="@drawable/direction_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>

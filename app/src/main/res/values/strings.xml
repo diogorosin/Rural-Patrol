@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Patrulha Rural</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Habitantes, locais, etc...</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="go">Ir</string>
+</resources>

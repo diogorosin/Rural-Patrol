@@ -127,6 +127,14 @@ public class BindPlacesOnGoogleMapAsyncTask<
 
             bitmapList.put(5, getBitmap(context, IconUtils.getPinIconByType(5)));
 
+            bitmapList.put(6, getBitmap(context, IconUtils.getPinIconByType(6)));
+
+            bitmapList.put(7, getBitmap(context, IconUtils.getPinIconByType(7)));
+
+            bitmapList.put(8, getBitmap(context, IconUtils.getPinIconByType(8)));
+
+            bitmapList.put(9, getBitmap(context, IconUtils.getPinIconByType(9)));
+
         }
 
         return bitmapList;

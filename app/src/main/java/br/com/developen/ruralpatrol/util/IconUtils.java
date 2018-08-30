@@ -25,6 +25,18 @@ public class IconUtils {
             case 5: result = R.drawable.soccer_24;
                 break;
 
+            case 6: result = R.drawable.camping_24;
+                break;
+
+            case 7: result = R.drawable.industry_24;
+                break;
+
+            case 8: result = R.drawable.cemetery_24;
+                break;
+
+            case 9: result = R.drawable.restaurant_24;
+                break;
+
         }
 
         return result;
@@ -50,6 +62,18 @@ public class IconUtils {
                 break;
 
             case 5: result = R.drawable.soccer_pin;
+                break;
+
+            case 6: result = R.drawable.camping_pin;
+                break;
+
+            case 7: result = R.drawable.industry_pin;
+                break;
+
+            case 8: result = R.drawable.cemetery_pin;
+                break;
+
+            case 9: result = R.drawable.restaurant_pin;
                 break;
 
         }

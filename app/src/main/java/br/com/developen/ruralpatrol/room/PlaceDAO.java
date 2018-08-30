@@ -29,7 +29,7 @@ public interface PlaceDAO {
     @Query("SELECT P.* FROM Place P")
     List<PlaceVO> list();
 
-    @Query("SELECT P.* FROM Place P WHERE UPPER(P.denomination) LIKE :denomination")
+    @Query("SELECT P.* FROM Place P WHERE P.denomination LIKE :denomination")
     List<PlaceVO> listByDenomination(String denomination);
 
 }

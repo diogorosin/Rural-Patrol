@@ -29,12 +29,19 @@ public class DownloadPlacesAsyncTask<
     private WeakReference<A> activity;
 
 
+    public DownloadPlacesAsyncTask(A activity) {
+
+        this.activity = new WeakReference<>(activity);
+
+    }
+
+
     protected Object doInBackground(Void... parameters) {
 
         try {
 
             Response response = RequestBuilder.
-                    build("place-list.php").
+                    build("place-list-101.php").
                     request(MediaType.APPLICATION_JSON).
                     get();
 
@@ -127,14 +134,7 @@ public class DownloadPlacesAsyncTask<
 
     }
 
-
     public interface DownloadFarmsListener{
-
-        public DownloadPlacesAsyncTask(A activity) {
-
-            this.activity = new WeakReference<>(activity);
-
-        }
 
         void onSuccess();
 

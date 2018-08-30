@@ -8,7 +8,7 @@ import javax.ws.rs.client.WebTarget;
 
 public class RequestBuilder {
 
-    private static final String REST_SERVER_URL = "http://empresa.myevent.com.br/";
+    private static final String REST_SERVER_URL = "http://177.153.13.97/";
 
     private static Client client;
 

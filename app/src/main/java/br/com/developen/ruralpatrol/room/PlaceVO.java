@@ -15,7 +15,7 @@ public class PlaceVO implements Serializable {
     @ColumnInfo(name = "identifier")
     private Integer identifier;
 
-    @ColumnInfo(name = "denomination")
+    @ColumnInfo(name = "denomination", collate = ColumnInfo.NOCASE)
     private String denomination;
 
     @ColumnInfo(name = "type")
